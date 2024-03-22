@@ -15,18 +15,11 @@
 
 ._searchBarContainer {
   background-color: white;
-  padding: 2.5em 5em 2.5em 5em;
   border-radius: 10px;
-  width: 40%;
+  width: 40em;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   box-shadow: 0 1px 5px rgba(10, 9, 9, 0);
-}
-
-@media screen and (max-width: 1350px) {
-  ._searchBarContainer {
-    width: 70%;
-  }
 }

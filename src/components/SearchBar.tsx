@@ -40,7 +40,8 @@ export default function SearchBar() {
     <div className="SearchBar">
       <input className="_searchInput" ref={searchInputRef} />
       <button className="_searchButton" title="Reddit it" onClick={redditIt}>
-        REDDIT IT <img src={searchIcon} alt="Search" />
+        <span id="redditit">REDDIT IT </span>
+        <img src={searchIcon} alt="Search" />
       </button>
     </div>
   );
