@@ -16,7 +16,7 @@
   background-color: aliceblue;
   border: 1px solid darkblue;
   border-radius: 0px 25px 25px 0px;
-  height: 46px;
+  min-height: 1.994em;
 }
 
 ._searchButton:hover {
@@ -36,9 +36,13 @@
 ._searchInput {
   width: 60%;
   padding-left: 1em;
-  height: 42px;
+  height: 3.3em;
   border-radius: 25px 0px 0px 25px;
   border: 1px solid darkblue;
+}
+
+._searchInput:focus {
+  outline: 1px solid skyblue;
 }
 
 @media screen and (max-width: 650px) {
