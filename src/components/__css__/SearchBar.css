@@ -36,9 +36,10 @@
 ._searchInput {
   width: 60%;
   padding-left: 1em;
-  height: 3.3em;
+  height: 2.76em;
   border-radius: 25px 0px 0px 25px;
   border: 1px solid darkblue;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 650px) {
