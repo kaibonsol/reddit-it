@@ -38,7 +38,12 @@ export default function SearchBar() {
 
   return (
     <div className="SearchBar">
-      <input className="_searchInput" ref={searchInputRef} />
+      <input
+        className="_searchInput"
+        ref={searchInputRef}
+        name="search"
+        autoComplete="on"
+      />
       <button className="_searchButton" title="Reddit it" onClick={redditIt}>
         <span id="redditit">REDDIT IT </span>
         <img src={searchIcon} alt="Search" />
